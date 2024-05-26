@@ -1,0 +1,95 @@
+.form-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #1f1f1f;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+    /*  padding: 80px;
+    padding-top: 60px; */
+    object-fit: contain;
+}
+
+/* .form-container .typing-text {
+    color: #15dae6;
+    font-size: 70px;
+    font-family: 'Pixelify Sans';
+    text-align: left;
+    padding-bottom: 40px;
+}
+ */
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    font-size: 30px;
+    font-family: 'JetBrains Mono';
+    padding-top: 45vh;
+    padding-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'JetBrains Mono';
+    padding-bottom: 20px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.input-group Button {
+    margin-right: 10px;
+    /* Add space between input and button */
+}
+
+
+/* select {
+    background-color: transparent;
+    color: #15dae6;
+    padding: 3px 10px;
+    border: 1px solid #15dae6;
+    border-radius: 30;
+    font-size: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    width: 170px;
+} */
+
+option {
+    color: #1e1433;
+    font-size: 15px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+input {
+    background-color: transparent;
+    color: #cccccc;
+    font-family: 'JetBrains Mono', monospace;
+    /* padding: 8px 20px; */
+    border: 1px solid #cccccc;
+    border-radius: 30;
+    height: 40px;
+    width: 50%;
+}
+
+@media screen and (max-width: 850px) {
+    .form-container {
+        font-size: 55px;
+        /* padding-bottom: 20px; */
+    }
+
+    /* label {
+        padding-bottom: 15px;
+    } */
+
+}

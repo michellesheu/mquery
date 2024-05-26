@@ -1,0 +1,27 @@
+.results-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1f1f1f;
+
+}
+
+.results-container .canvas {
+    flex: 1;
+    background-color: transparent;
+    position: 'fixed';
+    float: 'left';
+}
+
+.results-section {
+    /* padding: 50px;
+    margin: 30px; */
+    background-color: transparent;
+    float: 'right';
+    align-items: left;
+}
+
+@media screen and (max-width: 768px) {
+    .results-container {
+        display: block;
+    }
+}
