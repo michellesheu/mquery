@@ -22,9 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
 /venushacks
-=======
 
 .DS_STORE
 node_modules
@@ -65,4 +63,3 @@ packages/react-devtools-fusebox/dist
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
 packages/react-devtools-timeline/dist
->>>>>>> 471a22fbefbe7d9b4ffb9c84e83b147ab822792c
