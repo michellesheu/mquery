@@ -13,6 +13,8 @@ function ResultSection({ response, setResponse }) {
     const handleClick = () => {
         navigate('/results-page', { state: { "temp": "temptemp " } })
     };
+    console.log("results section")
+    console.log(response)
     return (
         <div className='result-container'>
             <p>Relevant Customers:</p>

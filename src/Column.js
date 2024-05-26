@@ -1,14 +1,26 @@
 export const COLUMNS = [
     {
         Header: "Name",
-        accessor: "name",
+        accessor: "Full Name",
     },
     {
         Header: "Address",
-        accessor: "address",
+        accessor: "Address",
     },
     {
-        Header: "Age",
-        accessor: "age",
+        Header: "Household Size",
+        accessor: "HouseholdSize",
+    },
+    {
+        Header: "Marital Status",
+        accessor: "MaritalStatus",
+    },
+    {
+        Header: "Net Worth",
+        accessor: "NetWorth",
+    },
+    {
+        Header: "Number of Children",
+        accessor: "NumberOfChildren",
     },
 ];
